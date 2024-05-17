@@ -1,0 +1,30 @@
+.button {
+  outline: none;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+  padding: 10px 15px; /* Add padding for better spacing */
+  border-radius: 20px; /* Rounded corners */
+  font-size: 15px; /* Adjust font size */
+  transition: background 0.3s, transform 0.3s; /* Smooth transition effects */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.button:hover {
+  background: rgba(0, 0, 0, 1); /* Darker background on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.button:focus {
+  transform: scale(1); /* Reset scale on active click */
+  background-color: white;
+  color: black;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column; /* Stack buttons vertically */ /* Center buttons horizontally */
+  place-content: center;
+}

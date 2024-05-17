@@ -1,0 +1,5 @@
+.booksDashboard {
+  flex-direction: column;
+  color: white;
+  text-shadow: 10px 10px 10px black;
+}
