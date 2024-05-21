@@ -31,7 +31,7 @@ The Lord of the Rings Info Dashboard is a web application that allows users to e
 If you would like to contribute to this project, please fork the repository and submit a pull request. For major changes, please open an issue to discuss what you would like to change.
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the [MIT License](LICENSE). See the LICENSE file for details.
 
 ## Acknowledgements
 Data provided by [The One API](https://the-one-api.dev/).
