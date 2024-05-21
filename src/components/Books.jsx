@@ -10,7 +10,7 @@ export default function Books(props) {
     <div className={styles.booksDashboard}>
       {data.map((book, index) => (
         <div key={index}>
-          <h2>{book}</h2>
+          <h2>{book.name}</h2>
         </div>
       ))}
     </div>

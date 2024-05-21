@@ -20,8 +20,8 @@ export default function Dashboard() {
 
   const dataRender = {
     character: <Characters data={data?.docs || []} />, // Pass the whole docs array
-    book: <Books data={data?.docs?.map((doc) => doc.name) || []} />,
-    movie: <Movies data={data?.docs?.map((doc) => doc.name) || []} />,
+    book: <Books data={data?.docs || []} />,
+    movie: <Movies data={data?.docs || []} />,
   };
 
   console.log("Current selection:", selection); // Log current selection
