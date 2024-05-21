@@ -13,7 +13,7 @@ export default function Characters(props) {
     return element.name.toLowerCase().includes(char.toLowerCase()); // Case-insensitive match
   });
 
-  console.log("Characters component received props:", props); // Log received props
+  // console.log("Characters component received props:", props); // Log received props
 
   return (
     <div className={styles.characterDashboard}>

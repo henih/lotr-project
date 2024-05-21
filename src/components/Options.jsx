@@ -6,7 +6,7 @@ export default function Options(props) {
 
   const questions = ["character", "movie", "book"];
 
-  console.log("Selection value:", selection);
+  // console.log("Selection value:", selection);
 
   return (
     <div className="button-container">

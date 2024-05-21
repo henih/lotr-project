@@ -24,7 +24,7 @@ export default function useFetchData(selection) {
       try {
         const res = await fetch(url, options);
         const jsonData = await res.json();
-        console.log("Fetched data:", jsonData); // Log fetched data
+        // console.log("Fetched data:", jsonData); // Log fetched data
         setData(jsonData);
       } catch (err) {
         setError(err.message);

@@ -13,7 +13,7 @@ export default function Dashboard() {
 
   function onClickHandler(clickedButton) {
     return () => {
-      console.log("Button clicked:", clickedButton);
+      // console.log("Button clicked:", clickedButton);
       setSelection(clickedButton);
     };
   }
@@ -24,8 +24,6 @@ export default function Dashboard() {
     movie: <Movies data={data?.docs || []} />,
   };
 
-  console.log("Current selection:", selection); // Log current selection
-  console.log("Fetched data in Dashboard:", data); // Log fetched data
 
   return (
     <div className={styles.dashboard}>

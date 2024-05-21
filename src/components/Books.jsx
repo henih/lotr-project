@@ -2,7 +2,7 @@ import styles from "./books.module.css";
 
 export default function Books(props) {
   const { data } = props;
-  console.log("Books component received props:", props); // Log received props
+  // console.log("Books component received props:", props); // Log received props
 
   if (!data || data.length === 0) return <div>No data available</div>; // Handle empty data
 
