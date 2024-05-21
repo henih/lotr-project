@@ -8,8 +8,8 @@ export default function useFetchData(selection) {
   const apiURL = "https://the-one-api.dev/v2";
   const APITOKEN = import.meta.env.VITE_APP_API_KEY;
   let options = {
+    method: "GET",
     headers: {
-      method: "GET",
       Authorization: `Bearer ${APITOKEN}`,
     },
   };

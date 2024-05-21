@@ -9,7 +9,6 @@ import Loader from "./Loader";
 
 export default function Dashboard() {
   const [selection, setSelection] = useState(null);
-  // eslint-disable-next-line no-unused-vars
   const { data, loading, error } = useFetchData(selection);
 
   function onClickHandler(clickedButton) {
@@ -18,10 +17,11 @@ export default function Dashboard() {
       setSelection(clickedButton);
     };
   }
+
   const dataRender = {
-    character: <Characters data={data?.docs?.map((doc) => doc.name) || []} />, // Pass array of names
-    book: <Books data={data?.docs?.map((doc) => doc.name) || []} />, // Pass array of names
-    movie: <Movies data={data?.docs?.map((doc) => doc.name) || []} />, // Pass array of names
+    character: <Characters data={data?.docs || []} />, // Pass the whole docs array
+    book: <Books data={data?.docs?.map((doc) => doc.name) || []} />,
+    movie: <Movies data={data?.docs?.map((doc) => doc.name) || []} />,
   };
 
   console.log("Current selection:", selection); // Log current selection
