@@ -1,5 +1,14 @@
 .movieDashboard {
   flex-direction: column;
   color: white;
+  background: rgba(0, 0, 0, 0.3);
+  max-height: calc(100vh - 450px);
+  max-width: 80vw;
+  justify-content: center;
+  overflow-y: auto;
+  margin: 0 40px;
+}
+
+h2 {
   text-shadow: 10px 10px 10px black;
 }

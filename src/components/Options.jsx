@@ -17,7 +17,7 @@ export default function Options(props) {
             className={styles.button}
             key={index}
           >
-            {question}
+            {question.toUpperCase()}
           </button>
         );
       })}

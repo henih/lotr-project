@@ -10,7 +10,23 @@ export default function Movies(props) {
     <div className={styles.movieDashboard}>
       {data.map((movie, index) => (
         <div key={index}>
-          <h2>{movie}</h2>
+          <h2>{movie.name}</h2>
+          <p>
+            <strong>Academy Award Nominations: </strong>
+            {movie.academyAwardNominations}
+          </p>
+          <p>
+            <strong>Academy Award Wins: </strong>
+            {movie.academyAwardWins}
+          </p>
+          <p>
+            <strong>Box Office Revenue: </strong>
+            {movie.boxOfficeRevenueInMillions}M USD
+          </p>
+          <p>
+            <strong>Budget: </strong>
+            {movie.budgetInMillions}M USD
+          </p>
         </div>
       ))}
     </div>
