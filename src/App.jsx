@@ -15,9 +15,13 @@ function App() {
         <Dashboard />
       </main>
       <footer>
-        Coded by{" "}
+        Coded by&nbsp;
         <a href="https://henriett.dev/" target="_blank">
           Henriett Horvath
+        </a>
+        , built with&nbsp;
+        <a href="https://the-one-api.dev/" target="_blank">
+          The One API
         </a>
       </footer>
     </div>
