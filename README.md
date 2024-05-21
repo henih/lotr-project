@@ -1,7 +1,9 @@
-# Lord of the Rings Info Dashboard
+# ![Pencil drawn icon of Gandalf in color](https://img.icons8.com/?size=75&id=AeIJucZYFnTd&format=png&color=000000) Lord of the Rings Info Dashboard
 
 ## Overview
-The Lord of the Rings Info Dashboard is a web application that allows users to explore information about characters, books, and movies from the Lord of the Rings universe. The application fetches data from The One API and provides a user-friendly interface to browse through the details.
+The **Lord of the Rings Info Dashboard** is a web application that allows users to explore information about **characters, books, and movies** from the Lord of the Rings universe. The application **fetches data from The One API and provides a user-friendly interface to browse through the details.**
+
+> ![Ring with inscription from The Lord of the Rings](https://img.icons8.com/?size=20&id=20169&format=png&color=000000) "One Ring to rule them all, One Ring to find them, One Ring to bring them all and in the darkness bind them." 
 
 ## Features
 - **Character Search:** Search for characters by name and view detailed information.
