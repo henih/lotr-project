@@ -18,8 +18,10 @@ The **Lord of the Rings Info Dashboard** is a web application that allows users 
 
 ## Technologies Used
 - **React:** For building the user interface.
-- **CSS Modules:** For styling components.
+- **JavaScript (ES6+):** For writing modern, clean, and efficient code.
+- **HTML5 and CSS3:** For structuring and styling the web application.
 - **The One API:** For fetching data related to the Lord of the Rings universe.
+- **Vite:** For fast and efficient development server and build tool.
 
 ## Components
 - **Dashboard:** Main component that manages state and renders Characters, Books, or Movies based on user selection.
